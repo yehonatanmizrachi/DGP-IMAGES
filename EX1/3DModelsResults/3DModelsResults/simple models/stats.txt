@@ -1,0 +1,33 @@
+Mesh name: oneRingShape
+Number of vertices: 7
+Number of faces: 6
+Number of edges: 12
+Is triangle mesh: 1
+Genus: 0
+Number of connected components: 1
+Number of boundaries: 1
+ // 
+select -r oneRingFlat ;
+topologyStatisticsCmd;
+// 
+Mesh name: oneRingFlatShape
+Number of vertices: 7
+Number of faces: 6
+Number of edges: 12
+Is triangle mesh: 1
+Genus: 0
+Number of connected components: 1
+Number of boundaries: 1
+ // 
+select -r triangle ;
+topologyStatisticsCmd;
+// 
+Mesh name: triangleShape
+Number of vertices: 3
+Number of faces: 1
+Number of edges: 3
+Is triangle mesh: 1
+Genus: 0
+Number of connected components: 1
+Number of boundaries: 1
+ // 

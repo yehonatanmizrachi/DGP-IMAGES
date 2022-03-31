@@ -1,0 +1,60 @@
+colorMeshVerticesCmd;
+// Error: The given polygon shape is either self intersecting, holed or non-planar which are not supported // 
+select -r pCube4 ;
+colorMeshVerticesCmd;
+// Error: this is not a triangle mesh! // 
+select -r pCube2 ;
+colorMeshVerticesCmd;
+// Error: this is not a triangle mesh! // 
+select -r pCube3 ;
+colorMeshVerticesCmd;
+// Error: this is not a triangle mesh! // 
+
+topologyStatisticsCmd;
+// 
+Mesh name: pCube5Shape
+Number of vertices: 24578
+Number of faces: 24576
+Number of edges: 49152
+Is triangle mesh: 0
+Genus: 0
+Number of connected components: 1
+Number of boundaries: 0
+ // 
+select -r pCube4 ;
+topologyStatisticsCmd;
+// 
+Mesh name: pCube4Shape
+Number of vertices: 6146
+Number of faces: 6144
+Number of edges: 12288
+Is triangle mesh: 0
+Genus: 0
+Number of connected components: 1
+Number of boundaries: 0
+ // 
+select -r pCube2 ;
+topologyStatisticsCmd;
+// 
+Mesh name: pCube2Shape
+Number of vertices: 26
+Number of faces: 24
+Number of edges: 48
+Is triangle mesh: 0
+Genus: 0
+Number of connected components: 1
+Number of boundaries: 0
+ // 
+select -r pCube3 ;
+topologyStatisticsCmd;
+// 
+Mesh name: pCube3Shape
+Number of vertices: 26
+Number of faces: 24
+Number of edges: 48
+Is triangle mesh: 0
+Genus: 0
+Number of connected components: 1
+Number of boundaries: 0
+ // 
+
